@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(/image/gym.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 100vh;
+}
+
+form{
+    
+    padding: 50px;
+    
+    width: 200px;
+    height: 390px;
+    margin: 50px;
+    border: gray solid 3px;
+    margin-top: 50px;
+    margin-left: 450px;
+    border-radius: 40PX;
+}
+.titl{
+ text-align: center;
+ font-size: 30px;
+color: tomato;
+}
+.tar{
+    margin-top: 22px;
+    font-size: 20px;
+    color: tomato;
+    opacity: 0.7;
+
+}
+.taar{
+    color: tomato;
+}
+.select{
+    opacity: 0.4;
+}
+.brt input{
+    
+  background-color: transparent;
+  color:white;
+}
+.btn4{
+    margin-top: 25px;
+    background-color:gray;
+    color: white;
+}
+.btn4:hover{
+    color: tomato;
+}
+.btttn{
+    margin-top: 25px;
+    color: gray;
+}

@@ -1,0 +1,148 @@
+
+.navbr{
+
+    margin-left: 50px;
+    background-color: transparent;
+    height: 40px;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: inherit;
+
+}
+a{
+    
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+a:hover{
+    color: tomato;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.4)) ,url(/image/gym3.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 100vh;
+}
+.logo{
+    width: 6%;
+    height: 30px;
+    color: white;
+    margin-right: 625px;
+    margin-top: 22px;
+}
+.face,.man{
+     fill-opacity: 0;
+    stroke:white ;
+    stroke-width: 8px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 2000;
+}
+.man{
+    animation:man 11s infinite  ease-in-out;
+}
+@keyframes  man
+{
+ 0%
+ {
+    stroke-dashoffset:2000;
+}
+ 100%
+ {
+    stroke-dashoffset: 0;
+ }
+}
+.face{
+    animation: face 8s infinite ease-in-out;
+}
+@keyframes  face
+{
+ 0%
+ {
+    stroke-dashoffset:2000;
+}
+50%
+{
+   stroke-dashoffset:2000;
+}
+ 100%
+ {
+    stroke-dashoffset: 0;
+ }
+}
+.gym{
+    color: tomato;
+    font-size: 40px;
+    margin-left: 100px;
+}
+.gym1{
+    margin-top: 60px;
+}
+.gym2{
+    color: slategray;
+    margin-left: 160px;
+    font-size: 34px;
+    margin-top: 30px;
+}
+.gym3{
+    color: tomato;
+    font-size: 35px;
+    margin-left:130px ;
+    margin-top: 30px;
+}
+
+
+.btn{
+     margin-top: 50px;
+     margin-left: 50px;
+     font-size: 14px;
+      width: 75px;
+      height: 40px;
+      background-color: transparent;
+      color: tomato;
+      border-color: gray;
+      padding: 5px;
+
+}
+#btn1{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 14px;
+     width: 75px;
+     height: 40px;
+     background-color: transparent;
+     color: tomato;
+     border-color: gray;
+     padding: 5px;
+}
+
+@media screen and (max-width : 758px) {
+    .third-func{
+        grid-template-columns: auto auto;
+    }
+    .home-page{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 470px) {
+    .third-func{
+        grid-template-columns: auto ;
+    }
+}
